@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    min-height: 2rem;
+    background: rgb(212, 150, 171);
+    color: rgb(100, 0, 0);
+}
+
+.nav-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.nav-link{
+    color: rgb(100, 0, 0);
+}

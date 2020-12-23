@@ -1,0 +1,12 @@
+.image-div{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.image-style{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     margin-top: 1px;
+}
