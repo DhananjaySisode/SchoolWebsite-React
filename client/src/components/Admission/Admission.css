@@ -1,0 +1,31 @@
+.admission-h4 {
+    color: rgb(251, 114, 64);
+    margin-left: 20%;
+}
+
+.admission-group-navlink {
+    color: blue;
+    font-style: italic;
+}
+
+.addmission-ul{
+    margin-left: 20%;
+}
+
+.feesTable-div{
+    display: flex;
+    justify-content: center;
+}
+
+.feesTable-table{
+    width: 50%;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}

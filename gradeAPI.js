@@ -82,4 +82,6 @@ const GradeAPI = {
 	]
 }
 
-export default GradeAPI;
+module.exports = {
+	GradeAPI
+};
