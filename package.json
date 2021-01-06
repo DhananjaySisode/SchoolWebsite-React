@@ -5,7 +5,7 @@
   "scripts": {
     "init": "cd client && npm install",
     "build": "cd client && npm run build",
-    "start-server": "node dist/server.js",
+    "start-server": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "start": "concurrently \"npm run server\" \"npm run client\"",
