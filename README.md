@@ -1,4 +1,4 @@
-### School Website
+# School Website
 
 ## Code Architecture
 - ReactJS + Node Proxy app
