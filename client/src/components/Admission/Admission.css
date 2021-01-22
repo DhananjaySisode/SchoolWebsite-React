@@ -1,5 +1,5 @@
 .admission-h4 {
-    color: rgb(251, 114, 64);
+    color: #FB7240;
     margin-left: 20%;
 }
 
@@ -18,7 +18,9 @@
 }
 
 .feesTable-table{
-    width: 50%;
+    width: 30%;
+    background-color: aqua;
+    border: 4px solid red;
 }
 
 table, td, th {
@@ -28,4 +30,20 @@ table, td, th {
 table {
     width: 100%;
     border-collapse: collapse;
+}
+
+.admission-back2home{
+    font-weight: bold;
+    color: red;
+    text-decoration: underline solid;
+    font-style: italic;
+    margin-left: 20%;
+}
+
+.grade-back{
+    font-weight: bold;
+    color:blue;
+    text-decoration: underline solid;
+    font-style: italic;
+    margin-left: 20%;
 }

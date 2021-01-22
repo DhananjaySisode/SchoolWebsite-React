@@ -1,5 +1,4 @@
 import React from 'react'
-import { Table } from 'react-bootstrap';
 import './Admission.css';
 
 function FeesTable(props) {
@@ -10,7 +9,12 @@ function FeesTable(props) {
             <tr key={key}>
                 {
                     Object.keys(props.gradeDetails[key]).map((values)=> 
-                        values !== 'id' ? <td key={props.gradeDetails[key][values]}>{props.gradeDetails[key][values]}</td> :null
+                        values !== 'id' ? [
+                            values === 'fees' ?
+                            <td key={props.gradeDetails[key][values]}>Rs:- {props.gradeDetails[key][values]}</td>:
+                            <td key={props.gradeDetails[key][values]}>{props.gradeDetails[key][values]}</td>
+                        ]
+                         :null
                     )
                 }
             </tr>)
@@ -18,7 +22,7 @@ function FeesTable(props) {
 
     return (
         <div className='feesTable-div'>
-            <table className='feesTable-table'>
+            <table className='feesTable-table' >
             <thead>
                 <tr>
                 <th>Grade</th>

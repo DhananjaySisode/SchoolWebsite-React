@@ -45,6 +45,7 @@ function Admission() {
                 <h4 className='admission-h4'>Grades Data NOT Available!</h4>
             ]
             }
+            <NavLink className='admission-back2home' to='/'>Back To Home</NavLink>
         </div>
     )
 }

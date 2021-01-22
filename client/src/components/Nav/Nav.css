@@ -1,18 +1,20 @@
 .nav {
     display: flex;
     min-height: 2rem;
-    background: rgb(212, 150, 171);
-    color: rgb(100, 0, 0);
+    background: #D496AB;
+    color: #640000;
 }
 
 .nav-links {
     display: flex;
-    width: 30%;
+    width: 40%;
     justify-content: space-around;
     align-items: flex-start;
     list-style: none;
 }
 
 .nav-link{
-    color: rgb(100, 0, 0);
+    color: #640000;
+    font-weight: 600;
+    font-style: italic;
 }
