@@ -5,7 +5,7 @@
   "scripts": {
     "init": "cd client && npm install",
     "build": "cd client && npm run build",
-    "start-server": "node server.js",
+    "start-server": "NODE_ENV=production node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "start": "concurrently \"npm run server\" \"npm run client\"",
